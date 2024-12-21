@@ -49,6 +49,6 @@ We plan to expand this API with additional endpoints and features.
 
 ## License
 
-  This project is licensed under the [BSD 3-Clause License](./LICENSE).
+  This project is licensed under the [BSD 4-Clause "Original" License](./LICENSE).
 
 [LynnuxDev]: https://github.com/LynnuxDev
