@@ -1,0 +1,164 @@
+2024-12-21T12:09:31.583Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T12:09:35.813Z [[32minfo[39m]: GET / - ::ffff:127.0.0.1
+2024-12-21T12:09:36.326Z [[32minfo[39m]: GET /favicon.ico - ::ffff:127.0.0.1
+2024-12-21T12:09:45.447Z [[32minfo[39m]: GET /akira/guild - ::ffff:127.0.0.1
+2024-12-21T12:09:47.995Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:10:32.221Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:13:18.878Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:13:21.776Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:13:30.447Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T12:13:32.504Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:16:21.407Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T12:16:23.656Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:16:33.777Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:17:04.884Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T12:17:15.002Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:17:30.384Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T12:17:30.415Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:17:40.867Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T12:17:42.922Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:20:34.968Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T12:20:39.887Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:20:41.835Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:20:41.931Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:20:42.660Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:20:42.883Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:20:43.077Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:20:55.512Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T12:20:57.003Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:20:57.845Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:20:59.167Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:21:49.709Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:21:50.235Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:21:50.912Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:21:51.129Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:21:51.324Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:21:55.072Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T12:21:57.228Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:21:57.979Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:21:58.204Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:21:58.369Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:21:58.541Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:21:58.720Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:21:58.881Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:21:59.047Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:21:59.240Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:21:59.396Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:21:59.559Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:21:59.694Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:21:59.828Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:21:59.997Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:22:00.292Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:22:00.485Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:22:00.627Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:22:00.837Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:22:01.047Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:22:01.221Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:22:01.421Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:22:01.605Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:22:01.779Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:22:01.936Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:22:02.120Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:22:02.279Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:22:02.452Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:22:02.636Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:22:03.373Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:57:48.312Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T12:57:56.780Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T12:58:31.833Z [[32minfo[39m]: POST /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T13:01:06.388Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:08:06.488Z [[32minfo[39m]: GET /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T13:08:20.291Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:08:24.410Z [[32minfo[39m]: POST /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T13:13:43.141Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:13:49.110Z [[32minfo[39m]: POST /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T13:14:18.681Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:18:29.806Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:18:31.256Z [[32minfo[39m]: POST /akira/guilds - ::ffff:127.0.0.1
+2024-12-21T13:24:43.289Z [[32minfo[39m]: GET /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:25:29.771Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:25:40.602Z [[32minfo[39m]: POST /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:25:47.154Z [[32minfo[39m]: GET /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:26:27.868Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:26:30.568Z [[32minfo[39m]: POST /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:27:26.967Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:27:31.431Z [[32minfo[39m]: POST /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:27:59.332Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:32:46.246Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:32:52.507Z [[32minfo[39m]: GET /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:36:59.142Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:37:01.453Z [[32minfo[39m]: GET /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:39:46.303Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:39:48.948Z [[32minfo[39m]: GET /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:40:07.365Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:40:08.490Z [[32minfo[39m]: GET /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:41:47.236Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:41:51.670Z [[32minfo[39m]: GET /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:43:48.116Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:43:52.461Z [[32minfo[39m]: GET /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:44:22.381Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:44:23.413Z [[32minfo[39m]: GET /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:44:25.601Z [[32minfo[39m]: GET /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:44:38.465Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:44:41.005Z [[32minfo[39m]: GET /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:48:16.785Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:48:24.552Z [[32minfo[39m]: POST /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:48:35.854Z [[32minfo[39m]: POST /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:48:53.451Z [[32minfo[39m]: POST /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:49:05.260Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:49:08.633Z [[32minfo[39m]: POST /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:49:24.298Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:49:27.773Z [[32minfo[39m]: POST /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:49:29.005Z [[32minfo[39m]: POST /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:49:34.338Z [[32minfo[39m]: POST /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:50:22.467Z [[32minfo[39m]: GET /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:50:31.502Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:50:32.848Z [[32minfo[39m]: GET /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:51:11.095Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:51:17.540Z [[32minfo[39m]: POST /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:51:24.862Z [[32minfo[39m]: POST /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:52:57.290Z [[32minfo[39m]: POST /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:53:13.470Z [[32minfo[39m]: POST /akira/stats - ::ffff:127.0.0.1
+2024-12-21T13:55:05.871Z [[32minfo[39m]: GET / - ::ffff:127.0.0.1
+2024-12-21T13:55:11.527Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T13:55:13.825Z [[32minfo[39m]: GET / - ::ffff:127.0.0.1
+2024-12-21T13:55:27.946Z [[32minfo[39m]: POST / - ::ffff:127.0.0.1
+2024-12-21T14:20:06.203Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T14:20:23.113Z [[32minfo[39m]: GET /akira/roleplay - ::ffff:127.0.0.1
+2024-12-21T14:20:28.567Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:20:42.008Z [[32minfo[39m]: GET /akira/roleplay/uwu - ::ffff:127.0.0.1
+2024-12-21T14:20:48.733Z [[32minfo[39m]: GET /akira/roleplay/uwu/w - ::ffff:127.0.0.1
+2024-12-21T14:21:11.562Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T14:21:12.514Z [[32minfo[39m]: GET /akira/roleplay/uwu - ::ffff:127.0.0.1
+2024-12-21T14:21:36.890Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:38.590Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:39.213Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:39.624Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:39.810Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:39.980Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:40.156Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:40.316Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:40.470Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:40.630Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:40.825Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:40.994Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:41.123Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:41.281Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:41.436Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:41.582Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:41.896Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:42.193Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:42.350Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:42.507Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:42.669Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:42.831Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:42.994Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:43.155Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:43.302Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:43.451Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:43.612Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:43.766Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:43.923Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:44.079Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:44.238Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T14:21:44.396Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
