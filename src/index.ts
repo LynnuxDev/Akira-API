@@ -5,24 +5,24 @@ import { blockedIPMiddleware, rateLimiter } from './middleware';
 import { logger } from './utils';
 
 import akiraRoutes from './routes/akira';
+import otherRoutes from './routes/other';
 
-const app: Application = express();  // Explicitly define the type
+const app: Application = express();
 const port = process.env.PORT || 3000;
 
 app.use(blockedIPMiddleware);
 
 app.use(bodyParser.json());
 
-// Log middleware for incoming requests
 app.use((req: Request, res: Response, next: NextFunction) => {
   logger.info(`${req.method} ${req.originalUrl} - ${req.ip}`);
   next();
 });
 
-// Use the akira routes
 app.use('/akira', akiraRoutes);
 
-// Main page.
+app.use('/other', otherRoutes);
+
 app.get('/', async (req, res) => {
   res.status(200).json({status: "online"});
 });

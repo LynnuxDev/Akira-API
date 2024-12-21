@@ -1,9 +1,9 @@
 import { Router } from 'express';
 import { rateLimiter } from '../../middleware/rateLimiter';
-import { getRoleplayGif } from '../../controllers/akira/roleplay';
+import { proxyRequest } from '../../controllers/other/request';
 
 const router = Router();
 
-router.get('/:input', rateLimiter, getRoleplayGif);
+router.get('/', rateLimiter, proxyRequest);
 
 export default router;
