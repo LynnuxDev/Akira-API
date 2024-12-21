@@ -1,4 +1,4 @@
-import { logger } from '@/utils';
+import { logger } from '../../utils';
 import { Request, Response } from 'express';
 import * as fs from 'fs';
 import path from 'path';
