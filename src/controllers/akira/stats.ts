@@ -64,11 +64,13 @@ export const updateStats = (req: Request, res: Response) => {
  * @param body The body of the request.
  * @returns If params are valid.
  */
-const validateStatsBody = (body: any) => {
+function validateStatsBody(
+  body: Record<string, unknown>
+): body is { members: number; servers: number; commands: number; uptime: string } {
   return (
     typeof body.members === 'number' &&
     typeof body.servers === 'number' &&
     typeof body.commands === 'number' &&
     typeof body.uptime === 'string'
   );
-};
+}

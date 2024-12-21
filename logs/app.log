@@ -162,3 +162,7 @@
 2024-12-21T14:21:44.079Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
 2024-12-21T14:21:44.238Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
 2024-12-21T14:21:44.396Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T16:04:10.519Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T16:04:11.617Z [[32minfo[39m]: GET /akira/roleplay/bonk - ::ffff:127.0.0.1
+2024-12-21T16:26:31.502Z [[32minfo[39m]: Server is running on http://localhost:3000
+2024-12-21T16:26:47.683Z [[32minfo[39m]: GET /akira/stats - ::ffff:127.0.0.1
