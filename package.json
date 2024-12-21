@@ -1,8 +1,14 @@
 {
   "name": "akira-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "LynnuxDev public Api",
+  "author": "LynnuxDev",
+  "license": "BSD-4-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LynnuxDev/Akira-API.git"
+  },
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
@@ -10,8 +16,6 @@
     "start": "tsc && node dist/index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "BSD-4-Clause",
   "dependencies": {
     "@types/body-parser": "^1.19.5",
     "@types/node": "^22.10.2",
