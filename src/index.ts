@@ -6,6 +6,7 @@ import { logger } from './utils';
 
 import akiraRoutes from './routes/akira';
 import otherRoutes from './routes/other';
+import { getClientIP } from './utils/getIp';
 
 const app: Application = express();
 const port = process.env.PORT || 3000;
@@ -15,7 +16,8 @@ app.use(blockedIPMiddleware);
 app.use(bodyParser.json());
 
 app.use((req: Request, res: Response, next: NextFunction) => {
-  logger.info(`${req.method} ${req.originalUrl} - ${req.ip}`);
+  const clientIP = getClientIP(req);
+  logger.info(`${req.method} ${req.originalUrl} - ${clientIP}`);
   next();
 });
 
