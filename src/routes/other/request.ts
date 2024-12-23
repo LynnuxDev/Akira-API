@@ -1,5 +1,4 @@
 import { Router } from 'express';
-import { rateLimiter } from '../../middleware/rateLimiter';
 import { proxyRequest } from '../../controllers/other/request';
 
 const router = Router();
@@ -11,7 +10,6 @@ router.get('/',
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
     next();
   },
-  rateLimiter,
   proxyRequest);
 
 export default router;

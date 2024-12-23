@@ -1,7 +1,7 @@
 import express, { Application, Request, Response, NextFunction } from 'express';
 import bodyParser from 'body-parser';
 
-import { blockedIPMiddleware, rateLimiter } from './middleware';
+import { blockedIPMiddleware, rateLimiter, postRateLimiter } from './middleware';
 import { logger } from './utils';
 import favicon from 'serve-favicon';
 import path from 'path';
@@ -24,6 +24,20 @@ app.use((req: Request, res: Response, next: NextFunction) => {
   next();
 });
 
+app.use((req, res, next) => {
+  if (req.method === 'GET') { // IF need exception add "&& !req.path.startsWith('/exempt')"")
+    return rateLimiter(req, res, next);
+  }
+  next();
+});
+
+app.use((req, res, next) => {
+  if (req.method === 'POST') {
+    return postRateLimiter(req, res, next);
+  }
+  next();
+});
+
 app.use('/akira', akiraRoutes);
 
 app.use('/other', otherRoutes);
@@ -42,16 +56,6 @@ app.use('/roleplay/*', (req, res) => {
 
 app.use('/stats', (req, res) => {
   const newPath = req.originalUrl.replace('/stats', '/akira/stats');
-  res.redirect(301, newPath);
-});
-
-app.use('/guilds', (req, res) => {
-  const newPath = req.originalUrl.replace('/guilds', '/akira/guilds');
-  res.redirect(301, newPath);
-});
-
-app.use('/request/*', (req, res) => {
-  const newPath = req.originalUrl.replace('/request', '/other/request');
   res.redirect(301, newPath);
 });
 
