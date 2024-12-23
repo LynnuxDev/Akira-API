@@ -6,7 +6,7 @@ import { Request } from 'express';
  */
 export const rateLimiter = rateLimit({
   windowMs: 60 * 1000,
-  max: 30, // Max 30 Requests per minute
+  max: 10, // Max 10 Requests per minute
   message: { message: 'Too many requests, please try again later.' },
   keyGenerator: (req: Request) => {
     const ip = req.ip || '';
