@@ -11,7 +11,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
+    "build": "tsc && mkdir -p dist/public && cp src/public/favicon.ico dist/public",
     "dev": "ts-node -r tsconfig-paths/register src/index.ts",
     "start": "tsc && node dist/index.js"
   },
