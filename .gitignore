@@ -5,3 +5,4 @@ lookinto.txt
 dist
 logs
 bans.json
+.env
