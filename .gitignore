@@ -1,8 +1,16 @@
+# Ignore Build Files
 node_modules
 pnpm-lock.yaml
-old.js
-lookinto.txt
 dist
+
+# Ignore environment variable files
+**/*.env.development
+**/vars
+*.env
+
+# Ignore log files
 logs
+
+# Ignore Files
+old.js
 bans.json
-.env
