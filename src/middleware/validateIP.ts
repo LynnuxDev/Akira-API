@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 
-const allowedIPs = ['127.0.0.1']; // TODO: get this list from a database.
+const allowedIPs = ['127.0.0.1', `${process.env.AKIRA_IP}`]; // TODO: get this list from a database.
 
 /**
  * Check if user is a valid user.
