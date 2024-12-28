@@ -16,7 +16,7 @@ export const readStatsFromFile = (req: Request, res: Response) => {
 
     try {
       const stats = JSON.parse(data);
-      return res.status(203).json({ stats });
+      return res.status(200).json({ stats });
     } catch (parseError: unknown) {
       if (parseError instanceof Error) {
         return res.status(500).json({ message: 'Failed to parse stats data', error: parseError.message });
