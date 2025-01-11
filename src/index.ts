@@ -1,7 +1,7 @@
 import express, { Application, Request, Response, NextFunction } from 'express';
 import bodyParser from 'body-parser';
 
-import { blockedIPMiddleware, rateLimiter, postRateLimiter, validateIPMiddleware } from './middleware';
+import { blockedIPMiddleware, rateLimiter, validateIPMiddleware } from './middleware';
 import { logger } from './utils';
 import favicon from 'serve-favicon';
 import path from 'path';
@@ -33,7 +33,7 @@ app.use((req, res, next) => {
 
 app.use((req, res, next) => {
   if (req.method === 'POST') {
-    return postRateLimiter(req, res, next);
+    return rateLimiter(req, res, next);
   }
   next();
 });
