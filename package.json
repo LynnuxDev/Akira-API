@@ -21,6 +21,7 @@
     "@types/node": "^22.10.2",
     "axios": "^1.7.9",
     "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "express-rate-limit": "^7.5.0",
@@ -30,6 +31,7 @@
     "winston": "^3.17.0"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/serve-favicon": "^2.5.7",
     "tsconfig-paths": "^4.2.0",

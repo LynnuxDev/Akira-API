@@ -1,5 +1,6 @@
 import express, { Application, Request, Response, NextFunction } from 'express';
 import bodyParser from 'body-parser';
+import cors from 'cors';
 
 import { blockedIPMiddleware, rateLimiter, validateIPMiddleware } from './middleware';
 import { logger } from './utils';
@@ -79,7 +80,3 @@ app.use((req: Request, res: Response) => {
 app.listen(port, () => {
   logger.info(`Server is running on http://localhost:${port}`);
 });
-function cors(): any {
-  throw new Error('Function not implemented.');
-}
-
