@@ -10,6 +10,8 @@ const allowedIPs = ['127.0.0.1', `${process.env.AKIRA_IP}`]; // TODO: get this l
 export const validateIPMiddleware = (req: Request, res: Response, next: NextFunction): void | Response => {
   const normalizedIP = getClientIP(req);
 
+  logger.info('Normalized IP for validation:', normalizedIP);
+
   if (allowedIPs.includes(normalizedIP || '')) {
     next();
   } else {
