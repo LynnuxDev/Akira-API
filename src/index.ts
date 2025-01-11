@@ -24,6 +24,8 @@ app.use((req: Request, res: Response, next: NextFunction) => {
   next();
 });
 
+app.use(cors());
+
 app.use((req, res, next) => {
   if (req.method === 'GET') { // IF need exception add "&& !req.path.startsWith('/exempt')"")
     return rateLimiter(req, res, next);
@@ -77,3 +79,7 @@ app.use((req: Request, res: Response) => {
 app.listen(port, () => {
   logger.info(`Server is running on http://localhost:${port}`);
 });
+function cors(): any {
+  throw new Error('Function not implemented.');
+}
+
