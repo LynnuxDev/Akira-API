@@ -12,6 +12,7 @@ export const validateIPMiddleware = (req: Request, res: Response, next: NextFunc
 
   console.log('Normalized IP for validation:', normalizedIP);
   console.log('Allowed IPs:', allowedIPs);
+  console.log('AKIRA_IP from env:', process.env.AKIRA_IP);
 
   if (allowedIPs.includes(normalizedIP || '')) {
     next();
