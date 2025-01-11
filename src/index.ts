@@ -17,6 +17,7 @@ const faviconPath = path.join(__dirname, 'public', 'favicon.ico');
 
 app.use(favicon(faviconPath)); // Favicon side wide
 app.use(bodyParser.json());
+app.set('trust proxy', true);
 
 app.use((req: Request, res: Response, next: NextFunction) => {
   const clientIP = getClientIP(req);
@@ -45,7 +46,7 @@ app.use((req, res, next) => {
 app.use((req, res, next) => {
   if (req.method === 'POST' || req.method === 'PUT') {
     validateIPMiddleware(req, res, next);
-    return;
+    return
   }
   next();
 });
