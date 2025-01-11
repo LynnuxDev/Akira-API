@@ -1,4 +1,4 @@
-import { logger } from '@/utils';
+import { logger } from '../utils';
 import { Request, Response, NextFunction } from 'express';
 
 const allowedIPs = ['127.0.0.1', `${process.env.AKIRA_IP}`]; // TODO: get this list from a database.
