@@ -1,6 +1,7 @@
 import express, { Application, Request, Response, NextFunction } from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
+import dotenv from 'dotenv';
 
 import { blockedIPMiddleware, rateLimiter, validateIPMiddleware } from './middleware';
 import { logger } from './utils';
@@ -10,6 +11,8 @@ import path from 'path';
 import akiraRoutes from './routes/akira';
 import otherRoutes from './routes/other';
 import { getClientIP } from './utils/getIp';
+
+dotenv.config();
 
 const app: Application = express();
 const port = process.env.PORT || 3000;
