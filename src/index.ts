@@ -46,7 +46,6 @@ app.use((req, res, next) => {
 app.use((req, res, next) => {
   if (req.method === 'POST' || req.method === 'PUT') {
     validateIPMiddleware(req, res, next);
-    return
   }
   next();
 });
