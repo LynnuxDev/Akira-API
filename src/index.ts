@@ -15,7 +15,6 @@ const app: Application = express();
 const port = process.env.PORT || 3000;
 const faviconPath = path.join(__dirname, 'public', 'favicon.ico');
 
-app.use(blockedIPMiddleware);
 app.use(favicon(faviconPath)); // Favicon side wide
 app.use(bodyParser.json());
 
@@ -24,6 +23,8 @@ app.use((req: Request, res: Response, next: NextFunction) => {
   logger.info(`${req.method} ${req.originalUrl} - ${clientIP}`);
   next();
 });
+
+app.use(blockedIPMiddleware);
 
 app.use(cors());
 
@@ -42,7 +43,7 @@ app.use((req, res, next) => {
 });
 
 app.use((req, res, next) => {
-  if (req.method === 'POST') {
+  if (req.method === 'POST' || req.method === 'PUT') {
     validateIPMiddleware(req, res, next);
     return;
   }
