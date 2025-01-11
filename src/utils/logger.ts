@@ -1,9 +1,7 @@
-// src/utils/logger.ts
 import winston from 'winston';
 
-// Create a logger instance with different log levels
 const logger = winston.createLogger({
-  level: 'info', // Set the default logging level
+  level: 'info', // default logging level
   format: winston.format.combine(
     winston.format.colorize(),
     winston.format.timestamp(),
@@ -17,5 +15,4 @@ const logger = winston.createLogger({
   ],
 });
 
-// Export the logger for use in other parts of the app
 export { logger };

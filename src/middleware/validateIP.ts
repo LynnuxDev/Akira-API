@@ -11,7 +11,7 @@ export const validateIPMiddleware = (req: Request, res: Response, next: NextFunc
   const normalizedIP = getClientIP(req);
 
   console.log('Normalized IP for validation:', normalizedIP);
-  console.log('Request:', req);
+  console.log('Allowed IPs:', allowedIPs);
 
   if (allowedIPs.includes(normalizedIP || '')) {
     next();
